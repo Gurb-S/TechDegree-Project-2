@@ -1,0 +1,258 @@
+*{ 
+    box-sizing: border-box;
+}
+    
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    background: rgb(233, 232, 232);
+    
+}
+
+.main-header{
+    margin-top: 20px;
+    
+}
+ 
+.name{
+    font-size: 1.5rem;
+}
+.main-nav{
+    list-style-type: none;
+    padding-left: 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 0px;
+    
+}
+
+.links{
+    margin-top: 8px;
+
+}
+
+.profile{
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;   
+}
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#porfolio{
+    background: white;
+}
+
+h2{
+    padding: 40px 10px 0 10px;
+    
+}
+.page{
+    margin-top: 50px;
+}
+
+p{
+    padding: 10px 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+img{
+    width: 350px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.icons{
+    width: 2rem;
+}
+
+#skills{
+    background-color: white;
+}
+.info{
+    padding: 0;
+    text-align: center;
+    line-height: 0;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+a.home:hover{
+    color: white;
+}
+
+a.port:hover{
+    color: cadetblue;
+}
+
+a.skil:hover{
+    color: tomato;
+}
+
+a.cont:hover{
+    color: rgb(151, 39, 62);
+}
+footer{
+    margin-top: 50px;
+    background-color: rgb(233, 232, 232);
+    border-top: 1px solid gray;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footy,
+.footy-dis{
+    margin: 20px;
+}
+
+.sand{
+    display: none;
+}
+
+.porti{
+    color: cadetblue;
+}
+
+.skily{
+    color: tomato;
+}
+
+.conta{
+    color: rgb(151, 39, 62);
+}
+@media screen and (min-width: 768px){
+    .main-nav{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .links{
+        margin-right: 15px;
+        padding: 5px;
+        background-color: rgb(233, 232, 232);
+    }
+
+    .porti{
+        margin-bottom: 30px;    
+    }
+    .page{
+        width: 50%;
+        padding: 10px;
+        margin-top: -15px;
+    }
+
+    p{
+        padding: 40px;
+        margin-top: -15px;
+        margin-bottom: -15px;
+    }
+
+    .top{
+        display: flex;
+    }
+    
+    .profile{
+        order: 1;
+        margin-right: 20px;
+        
+    }
+    img{
+        margin-bottom: 5px;
+    }
+
+    #skills{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(233, 232, 232);
+    }
+
+    .total{
+        width: 90%;  
+        background-color: white; 
+        margin-top: 20px;
+    }
+    .yeye{
+        margin-top: 0px;
+    }
+    .third{
+        margin-top: -30px;
+    }
+
+    .chat{
+        padding: 0 20px;
+        margin: 5px 20px;
+    }
+
+    .info{
+        margin-top: 15px;
+    }
+    
+    .btm{
+        margin-top: 0px;
+        margin-right: 18px;
+    }
+
+    .sand{
+        display: flex;
+        list-style-type: none;
+    }
+
+    .footy-dis{
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 1024px){
+    
+    .main-header{
+        width: 96%;
+    }
+    nav{
+        display: inline-flex;
+        width: 96%;
+        justify-content: space-between;
+        margin-left: 30px;
+        
+    }
+    
+    .top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about{
+        width: 50%;
+    }
+    .page{
+        width: 33%;
+    }
+
+    .sleep{
+        display: flex;
+    }
+
+    .skillz{
+        width: 50%;
+    }
+
+    #contact{
+        display: flex;
+        justify-content: center;
+    }
+    .third{
+        width: 50%;
+    }
+  
+}
