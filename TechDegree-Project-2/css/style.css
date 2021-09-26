@@ -58,6 +58,7 @@ h2{
 }
 .page{
     margin-top: 50px;
+    
 }
 
 p{
@@ -70,6 +71,7 @@ img{
     width: 350px;
     height: auto;
     margin-bottom: 15px;
+    max-width: 100%;
 }
 .icons{
     width: 2rem;
@@ -115,7 +117,10 @@ footer{
 }
 .footy,
 .footy-dis{
-    margin: 20px;
+    /* margin: 20px;
+    display: inline-block; */
+    margin: 15px;
+    font-size: .9rem;
 }
 
 .sand{
@@ -171,6 +176,7 @@ footer{
     }
     img{
         margin-bottom: 5px;
+        
     }
 
     #skills{
@@ -217,6 +223,10 @@ footer{
 }
 @media screen and (min-width: 1024px){
     
+    body{
+        max-width: 80%;
+        margin: auto;
+    }
     .main-header{
         width: 96%;
     }
@@ -234,6 +244,7 @@ footer{
     }
     .about{
         width: 50%;
+        text-align: left;
     }
     .page{
         width: 33%;
